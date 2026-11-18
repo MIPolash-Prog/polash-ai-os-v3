@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mipolash-prog.github.io/polash-ai-os-v3/sitemap.xml

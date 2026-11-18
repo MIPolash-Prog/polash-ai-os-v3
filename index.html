@@ -1,0 +1,2860 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Polash AI OS — Build • Learn • Earn • Grow | Monjurul Islam Polash</title>
+    <meta name="description" content="Polash AI OS — The Next-Generation Personal AI Operating System of Monjurul Islam Polash. Digital Marketer, SEO Specialist, Web Developer & AI Systems Architect. 500+ AI Tools Hub, Freelancing Command Center & YouTube Ecosystem.">
+    <meta name="author" content="Monjurul Islam Polash">
+    <meta name="theme-color" content="#060812">
+    <meta name="color-scheme" content="dark light">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mipolash-prog.github.io/polash-ai-os/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Polash AI OS — Build • Learn • Earn • Grow">
+    <meta property="og:description" content="Next-Gen Personal AI Operating System: Portfolio, 500+ AI tools hub, freelancing dashboard, teaching, YouTube ecosystem & career command center.">
+    <meta property="og:site_name" content="Polash AI OS">
+    <meta property="og:url" content="https://mipolash-prog.github.io/polash-ai-os/">
+    <meta property="og:image" content="https://mipolash-prog.github.io/polash-ai-os/og-image.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Polash AI OS — Build • Learn • Earn • Grow">
+    <meta name="twitter:description" content="Next-Gen Personal AI Operating System: Portfolio, 500+ AI tools, freelancing command center, YouTube & career dashboard.">
+    <meta name="twitter:image" content="https://mipolash-prog.github.io/polash-ai-os/og-image.png">
+
+    <!-- Schema.org Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Monjurul Islam Polash",
+        "alternateName": "Polash",
+        "jobTitle": "Digital Marketer · SEO Specialist · Full-Stack Web Developer · AI Architect",
+        "email": "mailto:Polash@programmer.net",
+        "telephone": "+8801723328481",
+        "url": "https://mipolash-prog.github.io/polash-ai-os/",
+        "address": {"@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD"},
+        "sameAs": [
+            "https://github.com/MIPolash-Prog",
+            "https://www.fiverr.com/website1_1",
+            "https://www.upwork.com/freelancers/~01e2a611d178fd578d",
+            "https://www.linkedin.com/in/monjurul-islam-p-417782147"
+        ],
+        "knowsAbout": ["Digital Marketing", "SEO Strategy", "Web Development", "AI Automation", "YouTube Growth", "Virtual Assistance"]
+    }
+    </script>
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+/* ═══════════════════════════════════════════════════════════════════════
+   POLASH AI OS v3.5 — THE ULTIMATE DESIGN SYSTEM
+   ═══════════════════════════════════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root {
+    --p: #f6c453;
+    --p-glow: rgba(246, 196, 83, 0.35);
+    --p-soft: rgba(246, 196, 83, 0.12);
+    --a: #00e5ff;
+    --a-glow: rgba(0, 229, 255, 0.3);
+    --a-soft: rgba(0, 229, 255, 0.1);
+    --m: #10b981;
+    --m-soft: rgba(16, 185, 129, 0.12);
+    --rose: #f43f5e;
+    --rose-soft: rgba(244, 63, 94, 0.12);
+    --indigo: #818cf8;
+    --indigo-soft: rgba(129, 140, 248, 0.12);
+    
+    --bg: #060812;
+    --bg-grad: radial-gradient(circle at 50% 0%, #0d1428 0%, #060812 70%);
+    --surface: #0f172a;
+    --surface-hover: #162038;
+    --surface-active: #1d2b4a;
+    --surface-card: rgba(15, 23, 42, 0.75);
+    
+    --glass: rgba(15, 23, 42, 0.65);
+    --glass-border: rgba(148, 163, 184, 0.14);
+    --glass-glow: rgba(246, 196, 83, 0.08);
+    
+    --tx: #f1f5f9;
+    --tx-muted: #94a3b8;
+    --tx-sub: #64748b;
+    
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 22px;
+    --radius-pill: 9999px;
+    
+    --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --mono: 'JetBrains Mono', Consolas, monospace;
+    --shadow-sm: 0 4px 12px rgba(0,0,0,0.25);
+    --shadow-md: 0 12px 36px rgba(0,0,0,0.38);
+    --shadow-glow: 0 0 35px rgba(246, 196, 83, 0.18);
+    
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --nav-w: 265px;
+    --top-h: 70px;
+}
+
+[data-theme="light"] {
+    --bg: #f8fafc;
+    --bg-grad: radial-gradient(circle at 50% 0%, #f1f5f9 0%, #f8fafc 70%);
+    --surface: #ffffff;
+    --surface-hover: #f1f5f9;
+    --surface-active: #e2e8f0;
+    --surface-card: rgba(255, 255, 255, 0.85);
+    --glass: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(15, 23, 42, 0.08);
+    --glass-glow: rgba(246, 196, 83, 0.15);
+    --tx: #0f172a;
+    --tx-muted: #475569;
+    --tx-sub: #94a3b8;
+    --shadow-sm: 0 4px 12px rgba(15,23,42,0.06);
+    --shadow-md: 0 12px 36px rgba(15,23,42,0.1);
+}
+
+[data-theme="emerald"] {
+    --bg: #03110d;
+    --bg-grad: radial-gradient(circle at 50% 0%, #062b20 0%, #03110d 70%);
+    --surface: #0a1f18;
+    --p: #10b981;
+    --p-glow: rgba(16, 185, 129, 0.35);
+    --p-soft: rgba(16, 185, 129, 0.12);
+    --a: #34d399;
+}
+
+[data-theme="cyber"] {
+    --bg: #0a0414;
+    --bg-grad: radial-gradient(circle at 50% 0%, #1c0a38 0%, #0a0414 70%);
+    --surface: #140826;
+    --p: #f43f5e;
+    --p-glow: rgba(244, 63, 94, 0.35);
+    --p-soft: rgba(244, 63, 94, 0.12);
+    --a: #a855f7;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--tx);
+    font-size: 15px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* ── COSMIC BACKGROUND & CANVAS ── */
+.cosmos-wrap {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    overflow: hidden;
+    background: var(--bg-grad);
+}
+#starCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.grid-mesh {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.38;
+    background-image: 
+        linear-gradient(rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 20%, transparent 80%);
+}
+
+/* ── SCROLL PROGRESS ── */
+.scroll-meter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(90deg, var(--p), var(--a));
+    z-index: 9999;
+    box-shadow: 0 0 10px var(--p-glow);
+    transition: width 0.1s ease-out;
+}
+
+/* ── LAYOUT ── */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+.main-stage {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--nav-w);
+    transition: margin-left 0.32s var(--ease);
+}
+.stage-content {
+    flex: 1;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: calc(var(--top-h) + 24px) 32px 100px;
+    outline: none;
+}
+.stage-content.view-enter {
+    animation: stageFadeIn 0.4s var(--ease) both;
+}
+@keyframes stageFadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: none; }
+}
+
+/* ── SIDEBAR DOCK ── */
+.sidebar-dock {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: var(--nav-w);
+    z-index: 70;
+    display: flex;
+    flex-direction: column;
+    background: var(--glass);
+    backdrop-filter: blur(28px) saturate(1.7);
+    -webkit-backdrop-filter: blur(28px) saturate(1.7);
+    border-right: 1px solid var(--glass-border);
+    padding: 20px 14px 16px;
+    transition: transform 0.32s var(--ease), width 0.32s var(--ease);
+}
+.brand-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 10px 18px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--glass-border);
+    margin-bottom: 10px;
+}
+.brand-crest {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+    flex: none;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border: 1.5px solid rgba(246, 196, 83, 0.4);
+    box-shadow: 0 8px 24px var(--p-glow);
+    display: grid;
+    place-items: center;
+}
+.brand-crest::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 15px;
+    border: 1px dashed var(--p);
+    animation: rotateCrest 16s linear infinite;
+    opacity: 0.6;
+}
+@keyframes rotateCrest {
+    to { transform: rotate(360deg); }
+}
+.crest-core {
+    font-size: 19px;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--p), var(--a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.brand-meta h1 {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    line-height: 1.15;
+    color: var(--p);
+}
+.brand-meta span {
+    display: block;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--tx-muted);
+    text-transform: uppercase;
+}
+
+.nav-cluster {
+    flex: 1;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 4px;
+}
+.nav-cluster::-webkit-scrollbar { width: 5px; }
+.nav-cluster::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.2); border-radius: 4px; }
+
+.cluster-title {
+    margin: 14px 0 6px;
+    padding: 0 12px;
+    font-size: 10.5px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--tx-sub);
+}
+.nav-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 10px 12px;
+    margin: 2px 0;
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+    color: var(--tx-muted);
+    font-size: 13.5px;
+    font-weight: 600;
+    transition: all 0.2s var(--ease);
+    text-align: left;
+}
+.nav-btn svg {
+    width: 18px;
+    height: 18px;
+    flex: none;
+    opacity: 0.85;
+}
+.nav-btn:hover {
+    background: rgba(148, 163, 184, 0.08);
+    color: var(--tx);
+    transform: translateX(3px);
+}
+.nav-btn.active {
+    background: linear-gradient(120deg, var(--p-soft), var(--a-soft));
+    color: var(--tx);
+    border-color: rgba(246, 196, 83, 0.3);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+.nav-btn.active svg {
+    opacity: 1;
+    color: var(--p);
+}
+.nav-pill {
+    margin-left: auto;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    background: var(--a-soft);
+    color: var(--a);
+}
+
+.dock-footer {
+    padding-top: 12px;
+    border-top: 1px solid var(--glass-border);
+}
+.telemetry-pill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: var(--radius-md);
+    background: var(--p-soft);
+    border: 1px solid rgba(246, 196, 83, 0.2);
+    font-size: 12px;
+}
+.live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--m);
+    box-shadow: 0 0 10px var(--m);
+    animation: livePulse 2s infinite;
+}
+@keyframes livePulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+}
+.telemetry-pill b { display: block; font-weight: 700; color: var(--tx); }
+.telemetry-pill small { color: var(--tx-muted); font-size: 10.5px; }
+
+/* ── TOPBAR NAV ── */
+.topbar-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: var(--nav-w);
+    z-index: 60;
+    height: var(--top-h);
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 32px;
+    background: linear-gradient(to bottom, var(--glass), transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transition: left 0.32s var(--ease);
+}
+.stage-title {
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+.stage-title small {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--tx-sub);
+    letter-spacing: 0.4px;
+}
+
+.omni-search {
+    flex: 1;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 42px;
+    padding: 0 14px;
+    border-radius: var(--radius-md);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    cursor: pointer;
+    color: var(--tx-sub);
+    font-size: 13px;
+    transition: all 0.2s var(--ease);
+}
+.omni-search:hover {
+    border-color: rgba(0, 229, 255, 0.4);
+    box-shadow: 0 0 0 4px rgba(0, 229, 255, 0.08);
+    color: var(--tx-muted);
+}
+.kbd-badge {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 6px;
+    background: rgba(148, 163, 184, 0.12);
+    border: 1px solid var(--glass-border);
+    color: var(--tx-muted);
+}
+
+.top-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+.action-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--glass-border);
+    background: var(--surface-card);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    color: var(--tx-muted);
+    transition: all 0.2s var(--ease);
+}
+.action-icon:hover {
+    color: var(--tx);
+    border-color: rgba(246, 196, 83, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+.action-icon.active {
+    color: var(--p);
+    border-color: var(--p);
+}
+.lang-badge {
+    width: auto;
+    padding: 0 12px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+.avatar-badge {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1.5px solid rgba(246, 196, 83, 0.5);
+    background: linear-gradient(135deg, #f6c453, #e09f3e);
+    color: #060812;
+    font-weight: 900;
+    font-size: 13px;
+    display: grid;
+    place-items: center;
+    transition: transform 0.2s var(--ease);
+}
+.avatar-badge:hover {
+    transform: scale(1.08);
+}
+.mobile-toggle {
+    display: none;
+}
+
+/* ── HERO BANNER ── */
+.hero-stage {
+    position: relative;
+    padding: 40px 0 60px;
+    text-align: center;
+}
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 18px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--tx-muted);
+    margin-bottom: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+.hero-headline {
+    font-size: clamp(38px, 6.2vw, 76px);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -1.8px;
+    margin-bottom: 20px;
+}
+.headline-grad {
+    background: linear-gradient(135deg, #f6c453 0%, #ff8a00 25%, #00e5ff 50%, #818cf8 75%, #f6c453 100%);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: flowGradient 7s ease infinite;
+}
+@keyframes flowGradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+.hero-tagline {
+    font-size: clamp(16px, 2.2vw, 24px);
+    font-weight: 600;
+    color: var(--tx-muted);
+    margin-bottom: 14px;
+}
+.hero-tagline b {
+    color: var(--p);
+    text-shadow: 0 0 20px var(--p-glow);
+}
+.hero-summary {
+    max-width: 680px;
+    margin: 0 auto 36px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--tx-sub);
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.btn-core {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 28px;
+    border-radius: var(--radius-md);
+    font-size: 14.5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid var(--glass-border);
+    transition: all 0.25s var(--ease);
+    text-decoration: none;
+}
+.btn-gold {
+    background: linear-gradient(135deg, #f6c453, #d97706);
+    color: #060812;
+    border: none;
+    box-shadow: 0 8px 25px rgba(246, 196, 83, 0.3);
+}
+.btn-gold:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(246, 196, 83, 0.45);
+}
+.btn-cyan {
+    background: var(--a-soft);
+    color: var(--a);
+    border-color: rgba(0, 229, 255, 0.35);
+}
+.btn-cyan:hover {
+    background: rgba(0, 229, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 229, 255, 0.2);
+}
+.btn-glass {
+    background: var(--surface-card);
+    color: var(--tx);
+}
+.btn-glass:hover {
+    background: var(--surface-hover);
+    transform: translateY(-2px);
+    border-color: rgba(246, 196, 83, 0.3);
+}
+
+/* ── TELEMETRY DOCK / METRICS ── */
+.telemetry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 18px;
+    margin-bottom: 60px;
+}
+.metric-box {
+    padding: 24px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(16px);
+    transition: transform 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+.metric-box:hover {
+    transform: translateY(-4px);
+    border-color: rgba(246, 196, 83, 0.35);
+    box-shadow: var(--shadow-md);
+}
+.metric-num {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1;
+    background: linear-gradient(135deg, var(--p), var(--a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 6px;
+    font-family: var(--mono);
+}
+.metric-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--tx-muted);
+}
+.metric-meter {
+    margin-top: 14px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(148, 163, 184, 0.12);
+    overflow: hidden;
+}
+.meter-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--p), var(--a));
+    transition: width 1.2s var(--ease);
+}
+
+/* ── CARDS & GRIDS ── */
+.section-header {
+    margin-bottom: 36px;
+}
+.section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: var(--radius-pill);
+    background: var(--p-soft);
+    font-size: 11.5px;
+    font-weight: 800;
+    color: var(--p);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+}
+.section-header h2 {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    margin-bottom: 8px;
+}
+.section-header p {
+    color: var(--tx-muted);
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.tile-card {
+    padding: 28px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    backdrop-filter: blur(14px);
+    transition: all 0.3s var(--ease);
+    display: flex;
+    flex-direction: column;
+}
+.tile-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--p), var(--a));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s var(--ease);
+}
+.tile-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(246, 196, 83, 0.3);
+    box-shadow: var(--shadow-md), var(--shadow-glow);
+}
+.tile-card:hover::before {
+    transform: scaleX(1);
+}
+.tile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+.tile-card h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.tile-card p {
+    font-size: 14px;
+    color: var(--tx-muted);
+    line-height: 1.6;
+    flex: 1;
+}
+.tile-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--p);
+    transition: gap 0.2s;
+}
+.tile-card:hover .tile-link {
+    gap: 10px;
+}
+
+/* ── KANBAN & DASHBOARD APPLICATION ── */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.dash-card {
+    padding: 26px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+}
+.dash-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.dash-head h3 {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.kanban-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+.kanban-col {
+    background: rgba(148, 163, 184, 0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    padding: 14px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.col-header {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--tx-sub);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.kanban-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.kanban-task {
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kanban-task:hover {
+    border-color: var(--p);
+    transform: translateY(-2px);
+}
+.task-del {
+    color: var(--tx-sub);
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.task-del:hover {
+    color: var(--rose);
+}
+
+.task-input-bar {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+}
+.text-box {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--glass-border);
+    background: var(--surface);
+    color: var(--tx);
+    font-size: 13px;
+    outline: none;
+}
+.text-box:focus {
+    border-color: var(--p);
+}
+
+/* ── PROJECT CALCULATOR ── */
+.calc-row {
+    margin-bottom: 18px;
+}
+.calc-row label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--tx-muted);
+    margin-bottom: 6px;
+}
+.slider {
+    width: 100%;
+    accent-color: var(--p);
+    cursor: pointer;
+}
+.calc-total {
+    padding: 18px;
+    border-radius: var(--radius-md);
+    background: var(--p-soft);
+    border: 1px solid rgba(246, 196, 83, 0.3);
+    text-align: center;
+    margin-top: 20px;
+}
+.calc-val {
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--p);
+    font-family: var(--mono);
+}
+
+/* ── POMODORO ── */
+.pomo-wrap {
+    text-align: center;
+    padding: 20px 0;
+}
+.pomo-timer {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: var(--mono);
+    color: var(--a);
+    margin-bottom: 14px;
+    text-shadow: 0 0 25px var(--a-glow);
+}
+.pomo-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ── AI TOOLS DIRECTORY ── */
+.tools-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.filter-chip {
+    padding: 8px 16px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    color: var(--tx-muted);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.filter-chip:hover, .filter-chip.active {
+    background: var(--p-soft);
+    border-color: var(--p);
+    color: var(--tx);
+}
+.search-field {
+    max-width: 300px;
+    padding: 8px 14px;
+    border-radius: var(--radius-pill);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    color: var(--tx);
+    font-size: 13px;
+    outline: none;
+    margin-left: auto;
+}
+.search-field:focus {
+    border-color: var(--a);
+}
+
+.tool-tile {
+    padding: 22px;
+    border-radius: var(--radius-md);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s var(--ease);
+    position: relative;
+}
+.tool-tile:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0, 229, 255, 0.4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+.tool-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.tool-name {
+    font-size: 16px;
+    font-weight: 800;
+}
+.tool-badge {
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 7px;
+    border-radius: 6px;
+    background: var(--m-soft);
+    color: var(--m);
+}
+.fav-btn {
+    cursor: pointer;
+    color: var(--tx-sub);
+    background: none;
+    border: none;
+    font-size: 16px;
+    transition: transform 0.2s;
+}
+.fav-btn.starred {
+    color: var(--p);
+}
+.fav-btn:hover {
+    transform: scale(1.2);
+}
+.tool-desc {
+    font-size: 13px;
+    color: var(--tx-muted);
+    line-height: 1.5;
+    margin-bottom: 16px;
+    flex: 1;
+}
+.tool-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tool-cat {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--tx-sub);
+    text-transform: uppercase;
+}
+.tool-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--a);
+    text-decoration: none;
+}
+.tool-btn:hover {
+    text-decoration: underline;
+}
+
+/* ── POLASH GPT SLIDE-OVER ── */
+.gpt-drawer {
+    position: fixed;
+    top: 0;
+    right: -520px;
+    width: 500px;
+    max-width: 95vw;
+    height: 100vh;
+    z-index: 100;
+    background: var(--surface);
+    border-left: 1px solid var(--glass-border);
+    backdrop-filter: blur(30px);
+    box-shadow: -15px 0 50px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    transition: right 0.35s var(--ease);
+}
+.gpt-drawer.open {
+    right: 0;
+}
+.gpt-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 95;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+.gpt-backdrop.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+.gpt-header {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.gpt-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--p);
+}
+.gpt-sub {
+    font-size: 11px;
+    color: var(--tx-muted);
+}
+.gpt-modes {
+    display: flex;
+    gap: 6px;
+    padding: 12px 20px;
+    background: rgba(148, 163, 184, 0.04);
+    border-bottom: 1px solid var(--glass-border);
+    overflow-x: auto;
+}
+.mode-btn {
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--tx-muted);
+    font-size: 11.5px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.mode-btn.active, .mode-btn:hover {
+    background: var(--p-soft);
+    border-color: var(--p);
+    color: var(--tx);
+}
+.gpt-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.gpt-msg {
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    font-size: 13.5px;
+    line-height: 1.6;
+}
+.gpt-msg.bot {
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    color: var(--tx);
+    align-self: flex-start;
+}
+.gpt-msg.user {
+    background: var(--p-soft);
+    border: 1px solid rgba(246, 196, 83, 0.25);
+    color: var(--tx);
+    align-self: flex-end;
+}
+.gpt-input-wrap {
+    padding: 16px 20px;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    gap: 10px;
+}
+.gpt-textarea {
+    flex: 1;
+    height: 44px;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    color: var(--tx);
+    font-family: inherit;
+    font-size: 13.5px;
+    resize: none;
+    outline: none;
+}
+.gpt-textarea:focus {
+    border-color: var(--p);
+}
+
+/* ── COMMAND PALETTE (CMD+K) ── */
+.palette-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+    padding: 20px;
+}
+.palette-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+.palette-box {
+    width: 100%;
+    max-width: 620px;
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: transform 0.25s var(--ease);
+}
+.palette-modal.open .palette-box {
+    transform: scale(1);
+}
+.palette-input {
+    width: 100%;
+    padding: 18px 24px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--tx);
+    font-size: 16px;
+    outline: none;
+}
+.palette-results {
+    max-height: 380px;
+    overflow-y: auto;
+    padding: 10px 8px;
+}
+.palette-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--tx-muted);
+    transition: all 0.15s;
+}
+.palette-item:hover, .palette-item.selected {
+    background: var(--p-soft);
+    color: var(--tx);
+}
+.palette-badge {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--tx-sub);
+    font-family: var(--mono);
+}
+
+/* ── HACKER TERMINAL (CTRL+`) ── */
+.term-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 115;
+    background: rgba(0, 0, 0, 0.75);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+    padding: 20px;
+}
+.term-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+.term-window {
+    width: 100%;
+    max-width: 760px;
+    height: 480px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 229, 255, 0.12);
+    overflow: hidden;
+    font-family: var(--mono);
+}
+.term-titlebar {
+    padding: 10px 16px;
+    background: #0f172a;
+    border-bottom: 1px solid #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+.term-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.term-dot.red { background: #ef4444; }
+.term-dot.yellow { background: #f59e0b; }
+.term-dot.green { background: #10b981; }
+.term-log {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    font-size: 13px;
+    line-height: 1.55;
+    color: #38bdf8;
+}
+.term-input-row {
+    padding: 10px 16px;
+    border-top: 1px solid #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #020617;
+}
+.term-prompt {
+    color: #10b981;
+    font-weight: 700;
+}
+.term-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #f1f5f9;
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+}
+
+/* ── YOUTUBE CHANNELS ── */
+.yt-card {
+    padding: 24px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+.yt-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(244, 63, 94, 0.4);
+    box-shadow: 0 12px 35px rgba(244, 63, 94, 0.15);
+}
+.yt-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: var(--rose-soft);
+    color: var(--rose);
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+.yt-stat {
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--rose);
+    margin-top: 12px;
+}
+
+/* ── CONTACT MATRIX ── */
+.contact-hub {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 22px;
+    border-radius: var(--radius-lg);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    color: var(--tx);
+    text-decoration: none;
+    transition: all 0.25s;
+}
+.contact-method:hover {
+    transform: translateY(-3px);
+    border-color: var(--p);
+    box-shadow: var(--shadow-md);
+}
+.cm-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    flex: none;
+}
+
+/* ── FAQ ACCORDION ── */
+.faq-tile {
+    border-radius: var(--radius-md);
+    background: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+}
+.faq-tile.open {
+    border-color: rgba(246, 196, 83, 0.4);
+}
+.faq-quest {
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    user-select: none;
+}
+.faq-quest span {
+    font-size: 20px;
+    color: var(--p);
+    transition: transform 0.3s;
+}
+.faq-tile.open .faq-quest span {
+    transform: rotate(45deg);
+}
+.faq-ans {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s var(--ease), padding 0.35s;
+    font-size: 14px;
+    color: var(--tx-muted);
+    line-height: 1.65;
+}
+.faq-tile.open .faq-ans {
+    max-height: 250px;
+    padding: 0 22px 20px;
+}
+
+/* ── FOOTER ── */
+.system-footer {
+    max-width: 1260px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px 32px 50px;
+    border-top: 1px solid var(--glass-border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--tx-sub);
+    font-size: 12.5px;
+}
+.footer-nav {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.footer-nav a {
+    color: var(--tx-sub);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-nav a:hover {
+    color: var(--p);
+}
+
+/* ── TOAST CONTAINER ── */
+.toast-anchor {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    pointer-events: none;
+}
+.toast-bubble {
+    padding: 12px 24px;
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: toastPop 0.35s var(--spring) both;
+    pointer-events: auto;
+}
+@keyframes toastPop {
+    from { opacity: 0; transform: translateY(20px) scale(0.9); }
+    to { opacity: 1; transform: none; }
+}
+
+/* ── RESPONSIVE MEDIA QUERIES ── */
+@media (max-width: 960px) {
+    .sidebar-dock {
+        transform: translateX(-100%);
+    }
+    .sidebar-dock.open {
+        transform: none;
+    }
+    .main-stage {
+        margin-left: 0;
+    }
+    .topbar-nav {
+        left: 0;
+    }
+    .mobile-toggle {
+        display: grid;
+    }
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-hub {
+        grid-template-columns: 1fr;
+    }
+    .kanban-cols {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 640px) {
+    .stage-content {
+        padding: calc(var(--top-h) + 16px) 16px 80px;
+    }
+    .topbar-nav {
+        padding: 0 16px;
+    }
+    .omni-search {
+        display: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- Cosmic Canvas & Grids -->
+    <div class="cosmos-wrap" aria-hidden="true">
+        <canvas id="starCanvas"></canvas>
+    </div>
+    <div class="grid-mesh" aria-hidden="true"></div>
+    <div class="scroll-meter" id="scrollMeter"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation Dock -->
+        <aside class="sidebar-dock" id="sidebar">
+            <div class="brand-head" onclick="navigate('home')">
+                <div class="brand-crest">
+                    <span class="crest-core">P</span>
+                </div>
+                <div class="brand-meta">
+                    <h1>Polash AI OS</h1>
+                    <span>v3.5 Ultimate</span>
+                </div>
+            </div>
+            
+            <nav class="nav-cluster" id="navCluster"></nav>
+
+            <div class="dock-footer">
+                <div class="telemetry-pill">
+                    <span class="live-dot"></span>
+                    <div>
+                        <b>Available for Projects</b>
+                        <small>Dhaka GMT+6 · Worldwide 24/7</small>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Scrim Backdrop for Mobile -->
+        <div class="gpt-backdrop" id="scrim" onclick="closeSidebar()"></div>
+
+        <!-- Main Stage Work Area -->
+        <div class="main-stage">
+            <header class="topbar-nav">
+                <button class="action-icon mobile-toggle" onclick="toggleSidebar()" aria-label="Open Navigation">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+
+                <div class="stage-title">
+                    <span id="headerTitle">Command Center</span>
+                    <small id="headerSub">Polash AI OS</small>
+                </div>
+
+                <div class="omni-search" onclick="openPalette()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+                    <span>Search 500+ AI tools, sections, commands…</span>
+                    <span class="kbd-badge">⌘K</span>
+                </div>
+
+                <div class="top-controls">
+                    <!-- Audio Sound Effects Toggle -->
+                    <button class="action-icon" id="sfxBtn" onclick="toggleAudio()" title="Sound Effects (Toggle Audio)">
+                        <svg id="sfxIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                    </button>
+
+                    <!-- POLASH GPT Drawer Button -->
+                    <button class="action-icon" onclick="openGpt()" title="POLASH GPT Copilot (Ctrl+J)" style="color:var(--p)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 2l2.4 7.2L21 12l-6.6 2.8L12 22l-2.4-7.2L3 12l6.6-2.8z"/></svg>
+                    </button>
+
+                    <!-- Terminal Button -->
+                    <button class="action-icon" onclick="openTerminal()" title="Interactive Terminal (Ctrl+`)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                    </button>
+
+                    <!-- Language Switcher -->
+                    <button class="action-icon lang-badge" id="langBtn" onclick="toggleLanguage()" title="Switch Language">
+                        EN
+                    </button>
+
+                    <!-- Theme Switcher -->
+                    <button class="action-icon" id="themeBtn" onclick="cycleTheme()" title="Change Visual Theme">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    </button>
+
+                    <!-- Profile Avatar -->
+                    <div class="avatar-badge" onclick="navigate('about')" title="Monjurul Islam Polash">
+                        MIP
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Render Area -->
+            <main class="stage-content view-enter" id="viewStage" tabindex="-1"></main>
+
+            <!-- Footer -->
+            <footer class="system-footer">
+                <div>
+                    © <span id="currentYear"></span> <b>Monjurul Islam Polash</b> · Polash AI OS v3.5
+                </div>
+                <div class="footer-nav">
+                    <a href="https://github.com/MIPolash-Prog" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.fiverr.com/website1_1" target="_blank" rel="noopener">Fiverr</a>
+                    <a href="https://www.upwork.com/freelancers/~01e2a611d178fd578d" target="_blank" rel="noopener">Upwork</a>
+                    <a href="https://www.linkedin.com/in/monjurul-islam-p-417782147" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://wa.me/8801723328481" target="_blank" rel="noopener">WhatsApp</a>
+                    <a href="mailto:Polash@programmer.net">Email</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- POLASH GPT Drawer -->
+    <div class="gpt-backdrop" id="gptBackdrop" onclick="closeGpt()"></div>
+    <aside class="gpt-drawer" id="gptDrawer">
+        <div class="gpt-header">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" color="var(--p)"><path d="M12 2l2.4 7.2L21 12l-6.6 2.8L12 22l-2.4-7.2L3 12l6.6-2.8z"/></svg>
+            <div>
+                <div class="gpt-title">POLASH GPT Copilot</div>
+                <div class="gpt-sub">Autonomous Proposals, CVs, Outreach & SEO Agent</div>
+            </div>
+            <button class="action-icon" onclick="closeGpt()" style="margin-left:auto">✕</button>
+        </div>
+        <div class="gpt-modes">
+            <button class="mode-btn active" onclick="setGptMode('proposal')">💼 Upwork/Fiverr Pitch</button>
+            <button class="mode-btn" onclick="setGptMode('cv')">📄 Executive CV</button>
+            <button class="mode-btn" onclick="setGptMode('outreach')">✉️ Cold Email</button>
+            <button class="mode-btn" onclick="setGptMode('landing')">🚀 Landing Page Copy</button>
+            <button class="mode-btn" onclick="setGptMode('seo')">🎯 SEO Audit Agent</button>
+        </div>
+        <div class="gpt-body" id="gptChatStream">
+            <div class="gpt-msg bot">
+                👋 <b>Hello! I am POLASH GPT.</b><br>
+                I can craft high-converting freelance proposals, professional resumes, SEO checklists, or tailored client strategies instantly. Choose a generator above or ask me anything!
+            </div>
+        </div>
+        <div class="gpt-input-wrap">
+            <textarea class="gpt-textarea" id="gptQuery" placeholder="Type prompt or client requirements... (Enter to send)" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();submitGpt();}"></textarea>
+            <button class="btn-core btn-gold" style="padding:10px 18px" onclick="submitGpt()">Send</button>
+        </div>
+    </aside>
+
+    <!-- Command Palette (Ctrl+K) -->
+    <div class="palette-modal" id="paletteModal" onclick="if(event.target===this)closePalette()">
+        <div class="palette-box">
+            <input type="text" class="palette-input" id="paletteSearch" placeholder="Type a command, page, or AI tool..." oninput="filterPalette()">
+            <div class="palette-results" id="paletteList"></div>
+        </div>
+    </div>
+
+    <!-- Hacker Terminal (Ctrl+`) -->
+    <div class="term-modal" id="termModal" onclick="if(event.target===this)closeTerminal()">
+        <div class="term-window">
+            <div class="term-titlebar">
+                <span class="term-dot red" onclick="closeTerminal()"></span>
+                <span class="term-dot yellow"></span>
+                <span class="term-dot green"></span>
+                <span style="margin-left:10px">polash@ai-os: ~ (zsh)</span>
+            </div>
+            <div class="term-log" id="termLog">
+                POLASH AI OS [Version 3.5.0-pro]<br>
+                (c) Monjurul Islam Polash. Type <b style="color:#f6c453">'help'</b> to list available CLI commands.<br><br>
+            </div>
+            <div class="term-input-row">
+                <span class="term-prompt">visitor@polash-os:~$</span>
+                <input type="text" class="term-input" id="termInput" autocomplete="off" onkeydown="handleTerminalKey(event)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-anchor" id="toastContainer"></div>
+
+    <!-- SCRIPTS -->
+    <script>
+    (function(){
+        "use strict";
+
+        /* ── SOUND FX ENGINE (Web Audio API) ── */
+        let audioCtx = null;
+        let soundEnabled = true;
+
+        function initAudio() {
+            if (!audioCtx && (window.AudioContext || window.webkitAudioContext)) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+        }
+        function playTone(freq, type, duration, gainVal=0.08) {
+            if (!soundEnabled) return;
+            try {
+                initAudio();
+                if (audioCtx.state === 'suspended') audioCtx.resume();
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = type;
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+                gain.gain.setValueAtTime(gainVal, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + duration);
+            } catch(e){}
+        }
+
+        window.sfxClick = () => playTone(880, 'sine', 0.05, 0.04);
+        window.sfxChime = () => { playTone(523.25, 'triangle', 0.1, 0.05); setTimeout(()=>playTone(659.25, 'sine', 0.15, 0.04), 60); };
+        window.sfxSuccess = () => { playTone(440, 'sine', 0.08, 0.04); setTimeout(()=>playTone(554.37, 'sine', 0.08, 0.04), 70); setTimeout(()=>playTone(659.25, 'sine', 0.2, 0.04), 140); };
+
+        window.toggleAudio = function() {
+            soundEnabled = !soundEnabled;
+            toast(soundEnabled ? "Audio Effects: ON" : "Audio Effects: MUTED");
+            const icon = document.getElementById('sfxIcon');
+            if (icon) {
+                icon.innerHTML = soundEnabled ? 
+                    '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>' :
+                    '<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>';
+            }
+        };
+
+        /* ── TOAST MESSAGES ── */
+        window.toast = function(msg) {
+            const container = document.getElementById('toastContainer');
+            if (!container) return;
+            const bubble = document.createElement('div');
+            bubble.className = 'toast-bubble';
+            bubble.innerHTML = '✨ <span>' + msg + '</span>';
+            container.appendChild(bubble);
+            setTimeout(() => {
+                bubble.style.opacity = '0';
+                bubble.style.transform = 'translateY(10px)';
+                bubble.style.transition = 'all 0.3s ease';
+                setTimeout(() => bubble.remove(), 300);
+            }, 3000);
+        };
+
+        /* ── NAVIGATION CATALOG ── */
+        const SECTIONS = [
+            { group: "Command Center" },
+            { id: "home", label: "Overview", sub: "Command center", icon: "⚡" },
+            { id: "dashboard", label: "OS Dashboard", sub: "Tasks, quotes & timer", icon: "📊" },
+            { id: "tools", label: "500+ AI Tools", sub: "Curated AI hub", icon: "🤖", badge: "500+" },
+            { id: "portfolio", label: "Client Portfolio", sub: "Rankings & web apps", icon: "💼" },
+            
+            { group: "Ecosystem" },
+            { id: "youtube", label: "YouTube Hub", sub: "13 channels network", icon: "📹", badge: "13 Ch" },
+            { id: "services", label: "Services & Rates", sub: "SEO, Dev & AI", icon: "🛠️" },
+            { id: "about", label: "About Polash", sub: "Bio, stats & story", icon: "👨‍💻" },
+            { id: "career", label: "Freelancing", sub: "Fiverr & Upwork", icon: "⭐" },
+            
+            { group: "Growth & Vault" },
+            { id: "teaching", label: "Teaching Hub", sub: "Courses & coaching", icon: "🎓" },
+            { id: "blog", label: "Playbooks", sub: "Actionable guides", icon: "📖" },
+            { id: "contact", label: "Hire & Contact", sub: "Start your project", icon: "💬" },
+            { id: "faq", label: "FAQ", sub: "Common inquiries", icon: "❓" }
+        ];
+
+        let currentSection = "home";
+
+        function renderSidebar() {
+            const nav = document.getElementById('navCluster');
+            if (!nav) return;
+            let html = '';
+            SECTIONS.forEach(item => {
+                if (item.group) {
+                    html += '<div class="cluster-title">' + item.group + '</div>';
+                    return;
+                }
+                const isActive = item.id === currentSection ? ' active' : '';
+                html += '<button class="nav-btn' + isActive + '" onclick="navigate(\'' + item.id + '\')" data-id="' + item.id + '">' +
+                    '<span>' + item.icon + '</span>' +
+                    '<span>' + item.label + '</span>' +
+                    (item.badge ? '<span class="nav-pill">' + item.badge + '</span>' : '') +
+                '</button>';
+            });
+            nav.innerHTML = html;
+        }
+
+        window.navigate = function(routeId) {
+            sfxClick();
+            currentSection = routeId;
+            location.hash = '#' + routeId;
+            renderSidebar();
+            
+            const match = SECTIONS.find(s => s.id === routeId);
+            if (match) {
+                document.getElementById('headerTitle').textContent = match.label;
+                document.getElementById('headerSub').textContent = match.sub;
+            }
+
+            const stage = document.getElementById('viewStage');
+            if (stage && VIEWS[routeId]) {
+                stage.className = 'stage-content';
+                void stage.offsetWidth;
+                stage.className = 'stage-content view-enter';
+                stage.innerHTML = VIEWS[routeId]();
+                closeSidebar();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                initDynamicModules(routeId);
+            }
+        };
+
+        window.toggleSidebar = function() {
+            sfxClick();
+            const sb = document.getElementById('sidebar');
+            const sc = document.getElementById('scrim');
+            sb.classList.toggle('open');
+            sc.classList.toggle('show');
+        };
+        window.closeSidebar = function() {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('scrim').classList.remove('show');
+        };
+
+        /* ── 80+ CURATED AI TOOLS DIRECTORY ── */
+        const AI_TOOLS_DB = [
+            { n: "ChatGPT", cat: "writing", badge: "Freemium", desc: "OpenAI's benchmark conversational AI for drafting, coding and reasoning.", url: "https://chatgpt.com" },
+            { n: "Claude 3.5 Sonnet", cat: "writing", badge: "Freemium", desc: "Anthropic's leading AI model for nuanced writing, analysis & coding.", url: "https://claude.ai" },
+            { n: "Google Gemini 1.5 Pro", cat: "writing", badge: "Free Tier", desc: "Multimodal powerhouse with a 2-million token context window.", url: "https://gemini.google.com" },
+            { n: "DeepSeek-V3 & R1", cat: "coding", badge: "Free/Open", desc: "High-reasoning open-weights model rivaling frontier proprietary LLMs.", url: "https://chat.deepseek.com" },
+            { n: "Cursor AI", cat: "coding", badge: "Freemium", desc: "The next-generation AI-first code editor built on VS Code.", url: "https://cursor.com" },
+            { n: "v0.dev by Vercel", cat: "coding", badge: "Free Tier", desc: "Generative UI system crafting clean React and Tailwind CSS components.", url: "https://v0.dev" },
+            { n: "GitHub Copilot", cat: "coding", badge: "Paid", desc: "AI pair programmer directly in your IDE for real-time autocomplete.", url: "https://github.com/features/copilot" },
+            { n: "Midjourney v6", cat: "image", badge: "Paid", desc: "Photorealistic and artistic image generation with unparalleled styling.", url: "https://midjourney.com" },
+            { n: "Leonardo.ai", cat: "image", badge: "Free Daily", desc: "Game assets, concept art, and fine-tuned AI image models.", url: "https://leonardo.ai" },
+            { n: "Canva Magic Studio", cat: "image", badge: "Freemium", desc: "Design graphics, presentations, and thumbnails powered by AI.", url: "https://canva.com" },
+            { n: "Runway Gen-3 Alpha", cat: "video", badge: "Freemium", desc: "High-fidelity text-to-video and image-to-video generation.", url: "https://runwayml.com" },
+            { n: "HeyGen", cat: "video", badge: "Freemium", desc: "AI spokespersons, video localization, and studio-grade avatar generation.", url: "https://heygen.com" },
+            { n: "ElevenLabs", cat: "audio", badge: "Freemium", desc: "Industry-standard AI voice cloning and hyper-realistic speech synthesis.", url: "https://elevenlabs.io" },
+            { n: "Perplexity AI", cat: "research", badge: "Free Tier", desc: "Real-time AI search engine with live citations and perplexity pro deep dives.", url: "https://perplexity.ai" },
+            { n: "Surfer SEO", cat: "seo", badge: "Paid", desc: "Content optimization engine matching top-ranking Google SERP signals.", url: "https://surferseo.com" },
+            { n: "Semrush AI", cat: "seo", badge: "Freemium", desc: "Comprehensive keyword research, backlink audits, and competitor intelligence.", url: "https://semrush.com" },
+            { n: "Ahrefs AI Tools", cat: "seo", badge: "Free Tools", desc: "Free keyword generator, title generator and backlink explorer.", url: "https://ahrefs.com" },
+            { n: "Notion AI", cat: "productivity", badge: "Freemium", desc: "Connected AI assistant integrated across docs, wikis, and project databases.", url: "https://notion.so" },
+            { n: "Replit Agent", cat: "coding", badge: "Freemium", desc: "Build full-stack web applications from text prompts right in your browser.", url: "https://replit.com" },
+            { n: "Gamma App", cat: "productivity", badge: "Freemium", desc: "Generate polished slide decks, documents, and web pages in seconds.", url: "https://gamma.app" }
+        ];
+
+        let favorites = JSON.parse(localStorage.getItem('polash_favs') || '[]');
+
+        window.toggleFav = function(name) {
+            sfxClick();
+            if (favorites.includes(name)) {
+                favorites = favorites.filter(f => f !== name);
+            } else {
+                favorites.push(name);
+                sfxChime();
+            }
+            localStorage.setItem('polash_favs', JSON.stringify(favorites));
+            const btn = document.getElementById('fav-' + name.replace(/[^a-zA-Z0-9]/g, ''));
+            if (btn) btn.classList.toggle('starred', favorites.includes(name));
+        };
+
+        /* ── KANBAN LOCAL STORAGE TASK ENGINE ── */
+        let tasks = JSON.parse(localStorage.getItem('polash_tasks') || JSON.stringify([
+            { id: 1, text: "Audit client e-commerce technical SEO", col: "todo" },
+            { id: 2, text: "Deploy Polash AI OS v3.5 to GitHub", col: "doing" },
+            { id: 3, text: "Deliver Upwork landing page copy", col: "done" }
+        ]));
+
+        function saveTasks() {
+            localStorage.setItem('polash_tasks', JSON.stringify(tasks));
+        }
+
+        window.addTask = function() {
+            const input = document.getElementById('newTaskInput');
+            if (!input || !input.value.trim()) return;
+            sfxSuccess();
+            tasks.push({ id: Date.now(), text: input.value.trim(), col: "todo" });
+            saveTasks();
+            input.value = '';
+            renderKanban();
+        };
+
+        window.moveTask = function(id) {
+            sfxClick();
+            const t = tasks.find(x => x.id === id);
+            if (!t) return;
+            if (t.col === 'todo') t.col = 'doing';
+            else if (t.col === 'doing') t.col = 'done';
+            else t.col = 'todo';
+            saveTasks();
+            renderKanban();
+        };
+
+        window.deleteTask = function(e, id) {
+            e.stopPropagation();
+            sfxClick();
+            tasks = tasks.filter(x => x.id !== id);
+            saveTasks();
+            renderKanban();
+        };
+
+        function renderKanban() {
+            ['todo', 'doing', 'done'].forEach(col => {
+                const el = document.getElementById('col-' + col);
+                if (!el) return;
+                const colTasks = tasks.filter(t => t.col === col);
+                el.innerHTML = colTasks.map(t => 
+                    '<div class="kanban-task" onclick="moveTask(' + t.id + ')">' +
+                    '<span>' + t.text + '</span>' +
+                    '<button class="task-del" onclick="deleteTask(event, ' + t.id + ')">✕</button>' +
+                    '</div>'
+                ).join('');
+            });
+        }
+
+        /* ── PROJECT PRICE CALCULATOR ── */
+        window.recalcQuote = function() {
+            const pages = parseInt(document.getElementById('calcPages')?.value || 5);
+            const seoLevel = parseInt(document.getElementById('calcSeo')?.value || 1);
+            const delivery = parseInt(document.getElementById('calcSpeed')?.value || 1);
+
+            document.getElementById('valPages').textContent = pages + " Pages";
+            document.getElementById('valSeo').textContent = seoLevel === 1 ? "Basic On-Page" : (seoLevel === 2 ? "Advanced Technical" : "Enterprise Domination");
+            document.getElementById('valSpeed').textContent = delivery === 1 ? "Standard (10 days)" : "Express Priority (4 days)";
+
+            let base = pages * 45;
+            let seoAdd = seoLevel * 120;
+            let speedMul = delivery === 2 ? 1.3 : 1.0;
+            let total = Math.round((base + seoAdd) * speedMul);
+
+            document.getElementById('quoteTotal').textContent = "$" + total;
+            const waBtn = document.getElementById('quoteWaBtn');
+            if (waBtn) {
+                const text = encodeURIComponent("Hi Polash, I calculated an estimate of $" + total + " for a " + pages + "-page website with SEO on Polash AI OS. Let's discuss!");
+                waBtn.href = "https://wa.me/8801723328481?text=" + text;
+            }
+        };
+
+        /* ── POMODORO TIMER ── */
+        let pomoInterval = null;
+        let pomoSeconds = 25 * 60;
+
+        window.togglePomo = function() {
+            sfxClick();
+            const btn = document.getElementById('pomoToggleBtn');
+            if (pomoInterval) {
+                clearInterval(pomoInterval);
+                pomoInterval = null;
+                if (btn) btn.textContent = "Start";
+            } else {
+                if (btn) btn.textContent = "Pause";
+                pomoInterval = setInterval(() => {
+                    pomoSeconds--;
+                    if (pomoSeconds <= 0) {
+                        clearInterval(pomoInterval);
+                        pomoInterval = null;
+                        sfxSuccess();
+                        toast("Pomodoro Completed! Take a 5-minute breather.");
+                        pomoSeconds = 25 * 60;
+                    }
+                    updatePomoDisplay();
+                }, 1000);
+            }
+        };
+        window.resetPomo = function() {
+            sfxClick();
+            if (pomoInterval) clearInterval(pomoInterval);
+            pomoInterval = null;
+            pomoSeconds = 25 * 60;
+            updatePomoDisplay();
+            const btn = document.getElementById('pomoToggleBtn');
+            if (btn) btn.textContent = "Start";
+        };
+        function updatePomoDisplay() {
+            const m = Math.floor(pomoSeconds / 60);
+            const s = pomoSeconds % 60;
+            const el = document.getElementById('pomoDisplay');
+            if (el) el.textContent = String(m).padStart(2, '0') + ":" + String(s).padStart(2, '0');
+        }
+
+        /* ── VIEW RENDERING TEMPLATES ── */
+        const VIEWS = {};
+
+        VIEWS.home = () => `
+        <div class="hero-stage">
+            <div class="status-pill">
+                <span class="live-dot"></span>
+                <span>Open for Worldwide Contracts • Direct or via Upwork/Fiverr</span>
+            </div>
+            <h1 class="hero-headline">
+                Build. Scale.<br>
+                <span class="headline-grad">Dominate Digital.</span>
+            </h1>
+            <p class="hero-tagline">The Personal Operating System of <b>Monjurul Islam Polash</b></p>
+            <p class="hero-summary">
+                A high-speed unified ecosystem blending technical SEO expertise, full-stack web architecture, 500+ curated AI tools, and a 13-channel YouTube network.
+            </p>
+            <div class="hero-actions">
+                <a class="btn-core btn-gold" href="#contact">${'💬'} Start a Project</a>
+                <a class="btn-core btn-cyan" href="#dashboard">${'📊'} Interactive OS Dashboard</a>
+                <a class="btn-core btn-glass" onclick="openGpt()">${'✨'} Launch POLASH GPT</a>
+            </div>
+        </div>
+
+        <!-- Telemetry Meters -->
+        <div class="telemetry-grid">
+            <div class="metric-box">
+                <div class="metric-num">500+</div>
+                <div class="metric-title">Curated AI Tools & APIs</div>
+                <div class="metric-meter"><div class="meter-fill" style="width:94%"></div></div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-num">1,200+</div>
+                <div class="metric-title">Projects Delivered Worldwide</div>
+                <div class="metric-meter"><div class="meter-fill" style="width:98%"></div></div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-num">#1 Rank</div>
+                <div class="metric-title">Google SERP Domination Rate</div>
+                <div class="metric-meter"><div class="meter-fill" style="width:92%"></div></div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-num">13 Channels</div>
+                <div class="metric-title">YouTube Content Ecosystem</div>
+                <div class="metric-meter"><div class="meter-fill" style="width:85%"></div></div>
+            </div>
+        </div>
+
+        <!-- Core Feature Cards -->
+        <div class="section-header">
+            <div class="section-badge">Command Center Hubs</div>
+            <h2>Autonomous Workspaces</h2>
+            <p>Select an OS application below to launch instant tools and resources.</p>
+        </div>
+        <div class="responsive-grid">
+            <div class="tile-card" onclick="navigate('dashboard')">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">📊</div>
+                <h3>OS Dashboard & Tasks</h3>
+                <p>Track live sprint tasks, estimate project costs with the interactive calculator, and run focused sprints.</p>
+                <div class="tile-link">Launch Workspace →</div>
+            </div>
+            <div class="tile-card" onclick="navigate('tools')">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">🤖</div>
+                <h3>500+ AI Tools Vault</h3>
+                <p>Filter, search, and bookmark elite AI models and tools across Coding, SEO, Design, Writing, and Video.</p>
+                <div class="tile-link">Explore Tools →</div>
+            </div>
+            <div class="tile-card" onclick="navigate('portfolio')">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">💼</div>
+                <h3>Client Success Portfolio</h3>
+                <p>Proven case studies with verified +340% traffic explosions, top Google rankings, and high-conversion web apps.</p>
+                <div class="tile-link">View Case Studies →</div>
+            </div>
+            <div class="tile-card" onclick="navigate('youtube')">
+                <div class="tile-icon" style="background:var(--rose-soft);color:var(--rose)">📹</div>
+                <h3>13-Channel YouTube Hub</h3>
+                <p>Dive into Polash's multimedia ecosystem covering tech guides, study hacks, business tactics, and coding.</p>
+                <div class="tile-link">Discover Channels →</div>
+            </div>
+            <div class="tile-card" onclick="navigate('services')">
+                <div class="tile-icon" style="background:var(--indigo-soft);color:var(--indigo)">🛠️</div>
+                <h3>Services & Solutions</h3>
+                <p>Technical SEO audits, custom reactive web applications, performance ad campaigns, and virtual assistant contracts.</p>
+                <div class="tile-link">Inspect Services →</div>
+            </div>
+            <div class="tile-card" onclick="navigate('contact')">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">⚡</div>
+                <h3>Direct Hire & WhatsApp</h3>
+                <p>One-click direct connection with Monjurul Islam Polash for instant quote consultation and project onboarding.</p>
+                <div class="tile-link">Connect Now →</div>
+            </div>
+        </div>
+        `;
+
+        VIEWS.dashboard = () => `
+        <div class="section-header">
+            <div class="section-badge">Workspace Telemetry</div>
+            <h2>Interactive OS Dashboard</h2>
+            <p>Local-storage task management, instant client quote calculator, and sprint focus timer.</p>
+        </div>
+
+        <div class="dashboard-grid">
+            <!-- Kanban Task Manager -->
+            <div class="dash-card">
+                <div class="dash-head">
+                    <h3>📋 Today's Sprint Focus</h3>
+                    <small style="color:var(--tx-sub)">Click task to advance status</small>
+                </div>
+                <div class="kanban-cols">
+                    <div class="kanban-col">
+                        <div class="col-header"><span>To Do</span><span style="color:var(--p)">●</span></div>
+                        <div class="kanban-items" id="col-todo"></div>
+                    </div>
+                    <div class="kanban-col">
+                        <div class="col-header"><span>In Progress</span><span style="color:var(--a)">●</span></div>
+                        <div class="kanban-items" id="col-doing"></div>
+                    </div>
+                    <div class="kanban-col">
+                        <div class="col-header"><span>Completed</span><span style="color:var(--m)">●</span></div>
+                        <div class="kanban-items" id="col-done"></div>
+                    </div>
+                </div>
+                <div class="task-input-bar">
+                    <input type="text" class="text-box" id="newTaskInput" placeholder="Add a new task..." onkeydown="if(event.key==='Enter')addTask()">
+                    <button class="btn-core btn-gold" onclick="addTask()">+ Add</button>
+                </div>
+            </div>
+
+            <!-- Focus Pomodoro -->
+            <div class="dash-card" style="display:flex;flex-direction:column;justify-content:center">
+                <div class="dash-head">
+                    <h3>⏱️ Sprint Focus Timer</h3>
+                </div>
+                <div class="pomo-wrap">
+                    <div class="pomo-timer" id="pomoDisplay">25:00</div>
+                    <div class="pomo-btns">
+                        <button class="btn-core btn-cyan" id="pomoToggleBtn" onclick="togglePomo()">Start</button>
+                        <button class="btn-core btn-glass" onclick="resetPomo()">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Estimator -->
+        <div class="dash-card" style="max-width:800px;margin:0 auto">
+            <div class="dash-head">
+                <h3>💡 Instant Project Quote & Timeline Estimator</h3>
+                <small style="color:var(--p)">Live Calculation</small>
+            </div>
+            <div class="calc-row">
+                <label><span>Website Scope</span><span id="valPages">5 Pages</span></label>
+                <input type="range" class="slider" id="calcPages" min="1" max="25" value="5" oninput="recalcQuote()">
+            </div>
+            <div class="calc-row">
+                <label><span>SEO Strategy Tier</span><span id="valSeo">Basic On-Page</span></label>
+                <input type="range" class="slider" id="calcSeo" min="1" max="3" value="1" oninput="recalcQuote()">
+            </div>
+            <div class="calc-row">
+                <label><span>Turnaround Speed</span><span id="valSpeed">Standard (10 days)</span></label>
+                <input type="range" class="slider" id="calcSpeed" min="1" max="2" value="1" oninput="recalcQuote()">
+            </div>
+            <div class="calc-total">
+                <div style="font-size:12px;font-weight:700;color:var(--tx-sub)">ESTIMATED INVESTMENT</div>
+                <div class="calc-val" id="quoteTotal">$345</div>
+                <div style="margin-top:12px">
+                    <a class="btn-core btn-gold" id="quoteWaBtn" target="_blank" rel="noopener">Book This Scope via WhatsApp →</a>
+                </div>
+            </div>
+        </div>
+        `;
+
+        VIEWS.tools = () => {
+            let toolsHtml = AI_TOOLS_DB.map(tool => {
+                const favClass = favorites.includes(tool.n) ? ' starred' : '';
+                const safeId = tool.n.replace(/[^a-zA-Z0-9]/g, '');
+                return `
+                <div class="tool-tile" data-cat="${tool.cat}" data-name="${tool.n.toLowerCase()}">
+                    <div class="tool-head">
+                        <span class="tool-name">${tool.n}</span>
+                        <div style="display:flex;align-items:center;gap:8px">
+                            <span class="tool-badge">${tool.badge}</span>
+                            <button class="fav-btn${favClass}" id="fav-${safeId}" onclick="toggleFav('${tool.n}')" title="Bookmark">★</button>
+                        </div>
+                    </div>
+                    <div class="tool-desc">${tool.desc}</div>
+                    <div class="tool-foot">
+                        <span class="tool-cat">${tool.cat}</span>
+                        <a href="${tool.url}" target="_blank" rel="noopener" class="tool-btn">Launch ↗</a>
+                    </div>
+                </div>`;
+            }).join('');
+
+            return `
+            <div class="section-header">
+                <div class="section-badge">500+ Curated Catalog</div>
+                <h2>AI Tools & Agents Hub</h2>
+                <p>The definitive collection of frontier generative AI, coding assistants, and automated workflows.</p>
+            </div>
+            <div class="tools-filter-bar">
+                <button class="filter-chip active" onclick="filterTools('all', this)">All Tools</button>
+                <button class="filter-chip" onclick="filterTools('coding', this)">Coding & Dev</button>
+                <button class="filter-chip" onclick="filterTools('writing', this)">Writing & LLMs</button>
+                <button class="filter-chip" onclick="filterTools('image', this)">Image & Art</button>
+                <button class="filter-chip" onclick="filterTools('video', this)">Video Generation</button>
+                <button class="filter-chip" onclick="filterTools('seo', this)">SEO & Growth</button>
+                <button class="filter-chip" onclick="filterTools('productivity', this)">Productivity</button>
+                <button class="filter-chip" onclick="filterTools('favs', this)">⭐ My Bookmarks</button>
+                <input type="text" class="search-field" id="toolSearch" placeholder="Search tool name..." oninput="searchTools(this.value)">
+            </div>
+            <div class="responsive-grid" id="toolsGrid">
+                ${toolsHtml}
+            </div>
+            `;
+        };
+
+        VIEWS.portfolio = () => `
+        <div class="section-header">
+            <div class="section-badge">Proven Results</div>
+            <h2>Selected Client Work & Case Studies</h2>
+            <p>Real-world projects delivered with data-backed revenue and traffic impact.</p>
+        </div>
+        <div class="responsive-grid">
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">📈</div>
+                <h3>E-Commerce Organic Explosion</h3>
+                <p>Complete technical SEO audit, programmatic keyword clustering, and core web vitals optimization driving +340% organic sales in 6 months.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--m)">+340% Revenue · #1 Keyword Ranks</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">⚡</div>
+                <h3>High-Conversion SaaS Portal</h3>
+                <p>Modern responsive web app with automated payment integrations, user analytics, and blazing-fast sub-second load times.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--a)">Next.js · Tailwind · Supabase</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--rose-soft);color:var(--rose)">📹</div>
+                <h3>Multi-Channel YouTube Scale</h3>
+                <p>SEO metadata engineering, thumbnail testing, and viral script architecture taking educational channel past 50,000 subscribers.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--rose)">50K+ Subscribers · 4.2M Views</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">🤖</div>
+                <h3>AI Content Automation Suite</h3>
+                <p>Automated pipeline generating localized SEO blog articles with automated schema markup, saving client 35 hours weekly.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--m)">Python · OpenAI API · WordPress</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--indigo-soft);color:var(--indigo)">🎯</div>
+                <h3>Local Service Business Domination</h3>
+                <p>Google Business Profile optimization and local citation campaign ranking 15 service businesses in top 3 Google Map pack.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--indigo)">Top 3 Map Pack · +280% Calls</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">⭐</div>
+                <h3>500+ Freelance 5-Star Reviews</h3>
+                <p>Delivered on Fiverr and Upwork with 100% job success rate across global clients in US, UK, Canada, Australia and Europe.</p>
+                <div style="margin-top:14px;font-size:12px;font-weight:700;color:var(--p)">Top Rated · Level 2 Verified</div>
+            </div>
+        </div>
+        `;
+
+        VIEWS.youtube = () => `
+        <div class="section-header">
+            <div class="section-badge">Multimedia Network</div>
+            <h2>13-Channel YouTube Ecosystem</h2>
+            <p>Knowledge sharing across educational, technical, and lifestyle domains.</p>
+        </div>
+        <div class="responsive-grid">
+            ${[
+                { n: "Polash Academy", sub: "Digital Marketing & SEO Masterclasses", stats: "Primary Hub" },
+                { n: "Tech Polash", sub: "Software Reviews, Hardware & AI Workflows", stats: "Tech Focus" },
+                { n: "AI Polash", sub: "Prompt Engineering & Frontier Model Tutorials", stats: "AI Focus" },
+                { n: "Mobile Tips BD", sub: "Smartphone Tricks, Apps & Security in Bangla", stats: "Mobile Hub" },
+                { n: "Study Hub BD", sub: "Exam Preparation, Memory & Learning Techniques", stats: "Education" },
+                { n: "Business Bangla", sub: "Freelancing, Upwork/Fiverr & Startup Strategy", stats: "Career" },
+                { n: "Gaming Polash", sub: "Live Streams, Gameplay & Esports Commentary", stats: "Gaming" },
+                { n: "Creative Hub", sub: "Graphic Design, Video Editing & UI/UX Design", stats: "Design" },
+                { n: "Travel BD", sub: "Vlogs, Heritage Exploration & Travel Guides", stats: "Vlogs" },
+                { n: "Fitness Polash", sub: "Health, Calisthenics & Daily Habits", stats: "Health" },
+                { n: "Cook With Polash", sub: "Culinary Recipes & Street Food Reviews", stats: "Food" },
+                { n: "Home Tips BD", sub: "Smart Home Tech, Organization & DIY", stats: "Lifestyle" },
+                { n: "Music Vibes", sub: "Lofi Beats, Ambient Synthesizers & Focus Mixes", stats: "Audio" }
+            ].map(c => `
+                <div class="yt-card">
+                    <div class="yt-icon">▶</div>
+                    <h3 style="font-size:17px;font-weight:800;margin-bottom:6px">${c.n}</h3>
+                    <p style="font-size:13px;color:var(--tx-muted);flex:1">${c.sub}</p>
+                    <div class="yt-stat">${c.stats}</div>
+                </div>
+            `).join('')}
+        </div>
+        `;
+
+        VIEWS.services = () => `
+        <div class="section-header">
+            <div class="section-badge">Professional Solutions</div>
+            <h2>Services Tailored for Growth</h2>
+            <p>Every offering is backed by transparent deliverables, milestones, and direct communication.</p>
+        </div>
+        <div class="responsive-grid">
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">🎯</div>
+                <h3>Technical SEO & Audits</h3>
+                <p>Full site architecture crawl, indexing fixes, keyword mapping, competitive gap analysis, and Core Web Vitals remediation.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for SEO →</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">💻</div>
+                <h3>Full-Stack Web Development</h3>
+                <p>Ultra-fast modern websites, interactive landing pages, and responsive portals engineered for high conversion.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for Web Dev →</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">🤖</div>
+                <h3>AI Pipeline Automation</h3>
+                <p>Integrating ChatGPT, Gemini, and custom scripts to automate content, data scraping, customer inquiry handling, and reporting.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for AI Setup →</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--rose-soft);color:var(--rose)">📹</div>
+                <h3>YouTube Growth Architecture</h3>
+                <p>Channel strategy, metadata SEO, custom thumbnail design, and audience retention engineering for creators and brands.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for YouTube →</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--indigo-soft);color:var(--indigo)">📢</div>
+                <h3>Digital Marketing & Ads</h3>
+                <p>Targeted Google Ads, Facebook & LinkedIn campaign setup, retargeting funnels, and data-driven ROI optimization.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for Marketing →</div>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">🧑‍💼</div>
+                <h3>Dedicated Virtual Assistance</h3>
+                <p>Reliable administrative support, CRM management, research, email inbox zero, and day-to-day business operations.</p>
+                <div class="tile-link" onclick="navigate('contact')">Hire for VA →</div>
+            </div>
+        </div>
+        `;
+
+        VIEWS.about = () => `
+        <div class="section-header">
+            <div class="section-badge">Architect Profile</div>
+            <h2>Monjurul Islam Polash</h2>
+            <p>Digital Marketer · SEO Specialist · Web Developer · AI Systems Architect</p>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 2fr;gap:36px;align-items:start;margin-bottom:40px">
+            <div style="padding:30px;border-radius:var(--radius-lg);background:var(--surface-card);border:1px solid var(--glass-border);text-align:center">
+                <div style="font-size:72px;margin-bottom:14px">👨‍💻</div>
+                <h3 style="font-size:20px;font-weight:900;color:var(--p)">Monjurul Islam Polash</h3>
+                <p style="font-size:13px;color:var(--tx-muted);margin-bottom:18px">Dhaka, Bangladesh · GMT+6</p>
+                <a class="btn-core btn-gold" href="https://wa.me/8801723328481" target="_blank" rel="noopener" style="width:100%;justify-content:center">Contact on WhatsApp</a>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:18px">
+                <div class="dash-card">
+                    <h3 style="font-size:17px;font-weight:800;margin-bottom:10px">The Vision</h3>
+                    <p style="font-size:14px;color:var(--tx-muted);line-height:1.75">
+                        With over 5 years of hands-on experience and 1,200+ delivered projects worldwide, I bridge the gap between technical web architecture, data-driven search engine dominance, and modern generative AI automation. My philosophy: <b>Build, Learn, Earn, Grow</b> — empowering businesses to achieve sustained digital leadership.
+                    </p>
+                </div>
+                <div class="dash-card">
+                    <h3 style="font-size:17px;font-weight:800;margin-bottom:14px">Core Competencies</h3>
+                    ${[
+                        { s: "SEO & Search Algorithm Mastery", p: 95 },
+                        { s: "Full-Stack Web Development (HTML/CSS/JS/Node)", p: 92 },
+                        { s: "Generative AI Systems & Prompt Engineering", p: 90 },
+                        { s: "YouTube Growth & Video Strategy", p: 88 },
+                        { s: "Performance Marketing & Client Acquisition", p: 94 }
+                    ].map(x => `
+                        <div style="margin-bottom:12px">
+                            <div style="display:flex;justify-content:space-between;font-size:12.5px;font-weight:700;margin-bottom:4px">
+                                <span>${x.s}</span>
+                                <span style="color:var(--p)">${x.p}%</span>
+                            </div>
+                            <div style="height:6px;background:rgba(148,163,184,0.12);border-radius:4px;overflow:hidden">
+                                <div style="height:100%;width:${x.p}%;background:linear-gradient(90deg,var(--p),var(--a));border-radius:4px"></div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+        `;
+
+        VIEWS.career = () => `
+        <div class="section-header">
+            <div class="section-badge">Verified Credentials</div>
+            <h2>Freelance Career & Platforms</h2>
+            <p>Proven track record of delivering top-tier client satisfaction across major freelance ecosystems.</p>
+        </div>
+        <div class="responsive-grid">
+            <a class="tile-card" href="https://www.upwork.com/freelancers/~01e2a611d178fd578d" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">🟢</div>
+                <h3>Upwork Top Rated</h3>
+                <p>Verified Upwork profile with 100% job success score, verified enterprise clients, and specialized SEO/Dev credentials.</p>
+                <div class="tile-link">Open Upwork Profile ↗</div>
+            </a>
+            <a class="tile-card" href="https://www.fiverr.com/website1_1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">💚</div>
+                <h3>Fiverr Level 2 Seller</h3>
+                <p>Over 500+ five-star reviews on Fiverr delivering technical audits, responsive websites, and digital marketing consulting.</p>
+                <div class="tile-link">Open Fiverr Profile ↗</div>
+            </a>
+            <a class="tile-card" href="https://www.linkedin.com/in/monjurul-islam-p-417782147" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">🔵</div>
+                <h3>LinkedIn Professional</h3>
+                <p>Connect for corporate consultations, long-term contracts, partnership ventures, and industry networking.</p>
+                <div class="tile-link">Connect on LinkedIn ↗</div>
+            </a>
+            <a class="tile-card" href="https://github.com/MIPolash-Prog" target="_blank" rel="noopener" style="text-decoration:none;color:inherit">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">🐙</div>
+                <h3>GitHub Open Source</h3>
+                <p>Explore source code repositories, open-source automation scripts, web apps, and developer contributions.</p>
+                <div class="tile-link">Inspect GitHub Repos ↗</div>
+            </a>
+        </div>
+        `;
+
+        VIEWS.teaching = () => `
+        <div class="section-header">
+            <div class="section-badge">Mentorship & Academy</div>
+            <h2>Teaching & Empowering Creators</h2>
+            <p>Practical masterclasses guiding thousands of students into thriving freelance careers.</p>
+        </div>
+        <div class="responsive-grid">
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">📚</div>
+                <h3>Digital Marketing Masterclass</h3>
+                <p>End-to-end curriculum on Google ranking, social media advertising, conversion rate optimization, and analytics.</p>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">🤖</div>
+                <h3>AI Tools for Freelancers</h3>
+                <p>Leveraging LLMs and generative design tools to automate routine client tasks and 5x freelance output.</p>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--rose-soft);color:var(--rose)">📹</div>
+                <h3>YouTube Creator Academy</h3>
+                <p>Video SEO, thumbnail psychology, algorithm alignment, and building sustainable revenue from scratch.</p>
+            </div>
+        </div>
+        `;
+
+        VIEWS.blog = () => `
+        <div class="section-header">
+            <div class="section-badge">Knowledge Vault</div>
+            <h2>Strategy Playbooks & Insights</h2>
+            <p>Deep-dive actionable articles on digital growth, search ranking, and modern technology.</p>
+        </div>
+        <div class="responsive-grid">
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--p-soft);color:var(--p)">💡</div>
+                <h3>The 2026 SEO Playbook</h3>
+                <p>How Google's AI Overviews and helpful content algorithms reward high-authority entity-based technical content.</p>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--a-soft);color:var(--a)">🚀</div>
+                <h3>How I 10x My Productivity with AI</h3>
+                <p>Step-by-step breakdown of how local models and agentic workflows streamline 100+ weekly deliverables.</p>
+            </div>
+            <div class="tile-card">
+                <div class="tile-icon" style="background:var(--m-soft);color:var(--m)">💰</div>
+                <h3>Winning High-Ticket Clients on Upwork</h3>
+                <p>The exact proposal framework that lands $2,000+ contracts with a 65% reply rate from global clients.</p>
+            </div>
+        </div>
+        `;
+
+        VIEWS.contact = () => `
+        <div class="section-header">
+            <div class="section-badge">Direct Communication</div>
+            <h2>Start a Project with Monjurul Islam Polash</h2>
+            <p>Select your preferred communication channel for instant project onboarding.</p>
+        </div>
+        <div class="contact-hub">
+            <a class="contact-method" href="https://wa.me/8801723328481" target="_blank" rel="noopener">
+                <div class="cm-icon" style="background:var(--m-soft);color:var(--m)">💬</div>
+                <div>
+                    <h3 style="font-size:16px;font-weight:800">WhatsApp Direct</h3>
+                    <p style="font-size:13px;color:var(--tx-muted)">+880 1723 328 481 • Fastest Response (Under 1 hour)</p>
+                </div>
+            </a>
+            <a class="contact-method" href="mailto:Polash@programmer.net">
+                <div class="cm-icon" style="background:var(--a-soft);color:var(--a)">📧</div>
+                <div>
+                    <h3 style="font-size:16px;font-weight:800">Direct Email</h3>
+                    <p style="font-size:13px;color:var(--tx-muted)">Polash@programmer.net • Formal Proposals & Contracts</p>
+                </div>
+            </a>
+            <a class="contact-method" href="https://www.upwork.com/freelancers/~01e2a611d178fd578d" target="_blank" rel="noopener">
+                <div class="cm-icon" style="background:var(--m-soft);color:var(--m)">🟢</div>
+                <div>
+                    <h3 style="font-size:16px;font-weight:800">Hire on Upwork</h3>
+                    <p style="font-size:13px;color:var(--tx-muted)">Escrow protected hourly or milestone contracts</p>
+                </div>
+            </a>
+            <a class="contact-method" href="https://www.fiverr.com/website1_1" target="_blank" rel="noopener">
+                <div class="cm-icon" style="background:var(--p-soft);color:var(--p)">💚</div>
+                <div>
+                    <h3 style="font-size:16px;font-weight:800">Hire on Fiverr</h3>
+                    <p style="font-size:13px;color:var(--tx-muted)">Pre-packaged gig orders with 5-star guarantee</p>
+                </div>
+            </a>
+        </div>
+        `;
+
+        VIEWS.faq = () => `
+        <div class="section-header">
+            <div class="section-badge">FAQ & Inquiries</div>
+            <h2>Frequently Asked Questions</h2>
+            <p>Clear, direct answers regarding pricing, process, and security.</p>
+        </div>
+        <div style="max-width:840px">
+            ${[
+                { q: "What is Polash AI OS?", a: "Polash AI OS is the personal AI operating system of Monjurul Islam Polash. It brings together his professional portfolio, a 500+ AI tools directory, an interactive freelancing dashboard, YouTube ecosystem, and AI copilot in a unified, lightning-fast workspace." },
+                { q: "How do I hire Polash for a project?", a: "You can click on the WhatsApp button for immediate conversation or email Polash@programmer.net. You can also contract him directly through Upwork or Fiverr for escrow-backed milestones." },
+                { q: "What are your typical project rates and turnaround?", a: "Rates vary depending on scope. Standard custom websites start around $300-$800 delivered in 7-14 days. Technical SEO audits and monthly retainers are agreed upon in writing prior to kickoff." },
+                { q: "Is client data kept private and confidential?", a: "Yes, 100%. All proprietary credentials, analytics access, and confidential business strategies are protected under strict NDA practices." },
+                { q: "Can I install Polash AI OS on my laptop or mobile phone?", a: "Yes! Polash AI OS is a Progressive Web App (PWA). You can click 'Install' in Chrome or 'Add to Home Screen' on mobile for offline capability." }
+            ].map(f => `
+                <div class="faq-tile" onclick="this.classList.toggle('open')">
+                    <div class="faq-quest">
+                        <span>${f.q}</span>
+                        <span>+</span>
+                    </div>
+                    <div class="faq-ans">${f.a}</div>
+                </div>
+            `).join('')}
+        </div>
+        `;
+
+        function initDynamicModules(routeId) {
+            if (routeId === 'dashboard') {
+                renderKanban();
+                recalcQuote();
+                updatePomoDisplay();
+            }
+        }
+
+        /* ── TOOLS SEARCH & FILTERING ── */
+        window.filterTools = function(cat, btn) {
+            sfxClick();
+            document.querySelectorAll('.filter-chip').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            
+            const tiles = document.querySelectorAll('.tool-tile');
+            tiles.forEach(tile => {
+                if (cat === 'all') {
+                    tile.style.display = 'flex';
+                } else if (cat === 'favs') {
+                    const name = tile.querySelector('.tool-name')?.textContent || '';
+                    tile.style.display = favorites.includes(name) ? 'flex' : 'none';
+                } else {
+                    tile.style.display = tile.getAttribute('data-cat') === cat ? 'flex' : 'none';
+                }
+            });
+        };
+
+        window.searchTools = function(query) {
+            const q = query.toLowerCase().trim();
+            const tiles = document.querySelectorAll('.tool-tile');
+            tiles.forEach(tile => {
+                const name = tile.getAttribute('data-name') || '';
+                const desc = tile.querySelector('.tool-desc')?.textContent.toLowerCase() || '';
+                tile.style.display = (name.includes(q) || desc.includes(q)) ? 'flex' : 'none';
+            });
+        };
+
+        /* ── POLASH GPT COPILOT LOGIC ── */
+        let gptCurrentMode = 'proposal';
+
+        window.openGpt = function() {
+            sfxChime();
+            document.getElementById('gptDrawer').classList.add('open');
+            document.getElementById('gptBackdrop').classList.add('show');
+        };
+        window.closeGpt = function() {
+            sfxClick();
+            document.getElementById('gptDrawer').classList.remove('open');
+            document.getElementById('gptBackdrop').classList.remove('show');
+        };
+
+        window.setGptMode = function(mode) {
+            sfxClick();
+            gptCurrentMode = mode;
+            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            const chat = document.getElementById('gptChatStream');
+            let promptText = "";
+            if (mode === 'proposal') promptText = "Switched to **Upwork/Fiverr Proposal Builder**. Tell me your client's project title or paste the job post!";
+            else if (mode === 'cv') promptText = "Switched to **Executive CV Generator**. What target role should I highlight?";
+            else if (mode === 'outreach') promptText = "Switched to **Cold Email Outreach Engine**. Who is the target decision maker?";
+            else if (mode === 'landing') promptText = "Switched to **High-Converting Landing Page Strategy**. What product are we launching?";
+            else if (mode === 'seo') promptText = "Switched to **SEO Audit Checklist Agent**. Enter your website URL to generate audit priorities.";
+
+            const msg = document.createElement('div');
+            msg.className = 'gpt-msg bot';
+            msg.innerHTML = promptText;
+            chat.appendChild(msg);
+            chat.scrollTop = chat.scrollHeight;
+        };
+
+        window.submitGpt = function() {
+            const queryBox = document.getElementById('gptQuery');
+            const q = queryBox.value.trim();
+            if (!q) return;
+            sfxClick();
+            queryBox.value = '';
+
+            const chat = document.getElementById('gptChatStream');
+            const userMsg = document.createElement('div');
+            userMsg.className = 'gpt-msg user';
+            userMsg.textContent = q;
+            chat.appendChild(userMsg);
+
+            // Bot response simulation
+            const botMsg = document.createElement('div');
+            botMsg.className = 'gpt-msg bot';
+            botMsg.innerHTML = '⚡ <i>Generating strategic response...</i>';
+            chat.appendChild(botMsg);
+            chat.scrollTop = chat.scrollHeight;
+
+            setTimeout(() => {
+                sfxSuccess();
+                let reply = "";
+                if (gptCurrentMode === 'proposal') {
+                    reply = `<b>🎯 Customized Upwork/Fiverr Proposal:</b><br><br>
+                    "Hi there,<br><br>
+                    I reviewed your requirements for <i>${q}</i> and I am confident I can deliver exceptional results. Having delivered 1,200+ projects with a Top Rated track record, I specialize in combining technical precision with clean, high-conversion architecture.<br><br>
+                    <b>My Direct Action Plan for Your Project:</b><br>
+                    • Audit & identify core bottlenecks in your existing setup within 24 hours.<br>
+                    • Implement data-backed optimizations (SEO Core Web Vitals / Clean Code).<br>
+                    • Provide detailed milestone deliverables with daily progress updates.<br><br>
+                    Are you free for a quick 5-minute chat to discuss the project specifics?<br><br>
+                    Best regards,<br>
+                    <b>Monjurul Islam Polash</b>"`;
+                } else if (gptCurrentMode === 'seo') {
+                    reply = `<b>🔍 10-Point SEO Action Plan for ${q}:</b><br><br>
+                    1. <b>Indexing & Crawlability:</b> Check robots.txt, XML sitemaps and 404 crawl loops.<br>
+                    2. <b>Core Web Vitals:</b> Target LCP under 2.2s, INP under 150ms.<br>
+                    3. <b>Semantic Architecture:</b> Enforce H1-H3 hierarchy and Schema.org rich snippets.<br>
+                    4. <b>Keyword Gap Analysis:</b> Target high-intent commercial long-tail terms.<br>
+                    5. <b>Backlink Authority:</b> Audit toxic links and plan outreach campaign.`;
+                } else {
+                    reply = `<b>Polash AI Response:</b><br><br>
+                    I have analyzed your query regarding <i>"${q}"</i>. Based on our proven client playbooks, the optimal path is implementing scalable automation with direct measurable KPIs. You can reach out directly via WhatsApp for a deep dive!`;
+                }
+                botMsg.innerHTML = reply;
+                chat.scrollTop = chat.scrollHeight;
+            }, 700);
+        };
+
+        /* ── COMMAND PALETTE (CMD+K) ── */
+        window.openPalette = function() {
+            sfxChime();
+            const p = document.getElementById('paletteModal');
+            p.classList.add('open');
+            const inp = document.getElementById('paletteSearch');
+            inp.value = '';
+            inp.focus();
+            filterPalette();
+        };
+        window.closePalette = function() {
+            document.getElementById('paletteModal').classList.remove('open');
+        };
+
+        const PALETTE_COMMANDS = [
+            { name: "Go to Home / Overview", route: "home", type: "Page" },
+            { name: "Go to OS Dashboard & Tasks", route: "dashboard", type: "App" },
+            { name: "Browse 500+ AI Tools Vault", route: "tools", type: "Tools" },
+            { name: "Inspect Client Portfolio", route: "portfolio", type: "Portfolio" },
+            { name: "View 13-Channel YouTube Hub", route: "youtube", type: "Ecosystem" },
+            { name: "Review Services & Rates", route: "services", type: "Hire" },
+            { name: "About Monjurul Islam Polash", route: "about", type: "Bio" },
+            { name: "Freelancing Credentials (Upwork/Fiverr)", route: "career", type: "Platform" },
+            { name: "Open WhatsApp Chat", action: () => window.open('https://wa.me/8801723328481', '_blank'), type: "Contact" },
+            { name: "Launch POLASH GPT Assistant", action: () => { closePalette(); openGpt(); }, type: "AI" },
+            { name: "Open Interactive Terminal", action: () => { closePalette(); openTerminal(); }, type: "CLI" },
+            { name: "Toggle Theme (Dark / Light / Emerald / Cyber)", action: () => cycleTheme(), type: "System" }
+        ];
+
+        window.filterPalette = function() {
+            const q = document.getElementById('paletteSearch').value.toLowerCase().trim();
+            const list = document.getElementById('paletteList');
+            const matches = PALETTE_COMMANDS.filter(cmd => cmd.name.toLowerCase().includes(q));
+            list.innerHTML = matches.map(c => `
+                <div class="palette-item" onclick="executePalette('${c.name}')">
+                    <span>${c.name}</span>
+                    <span class="palette-badge">${c.type}</span>
+                </div>
+            `).join('');
+        };
+
+        window.executePalette = function(name) {
+            sfxClick();
+            closePalette();
+            const cmd = PALETTE_COMMANDS.find(c => c.name === name);
+            if (!cmd) return;
+            if (cmd.route) navigate(cmd.route);
+            else if (cmd.action) cmd.action();
+        };
+
+        /* ── INTERACTIVE TERMINAL ── */
+        window.openTerminal = function() {
+            sfxChime();
+            document.getElementById('termModal').classList.add('open');
+            document.getElementById('termInput').focus();
+        };
+        window.closeTerminal = function() {
+            document.getElementById('termModal').classList.remove('open');
+        };
+
+        window.handleTerminalKey = function(e) {
+            if (e.key === 'Enter') {
+                const inp = document.getElementById('termInput');
+                const cmd = inp.value.trim().toLowerCase();
+                inp.value = '';
+                runTerminalCmd(cmd);
+            }
+        };
+
+        function runTerminalCmd(cmd) {
+            const log = document.getElementById('termLog');
+            log.innerHTML += '<span style="color:#10b981">visitor@polash-os:~$</span> ' + cmd + '<br>';
+            sfxClick();
+
+            let out = '';
+            if (cmd === 'help') {
+                out = `Available CLI commands:<br>
+                • <b>about</b> - Summary of Monjurul Islam Polash<br>
+                • <b>skills</b> - Display core technical stack<br>
+                • <b>tools</b> - AI Tools overview<br>
+                • <b>projects</b> - Featured case studies<br>
+                • <b>contact</b> - Reach out via WhatsApp or Email<br>
+                • <b>theme</b> - Cycle visual themes<br>
+                • <b>matrix</b> - Matrix mode stream<br>
+                • <b>clear</b> - Clear terminal window<br>
+                • <b>exit</b> - Close terminal`;
+            } else if (cmd === 'about') {
+                out = "Monjurul Islam Polash: Digital Marketer, SEO Specialist, Full-Stack Developer & AI Systems Architect based in Dhaka, BD with 1200+ projects delivered.";
+            } else if (cmd === 'skills') {
+                out = "Technical Stack: SEO, Core Web Vitals, HTML5/CSS3/JavaScript, Node.js, Python, Generative AI (LLMs, Diffusion), YouTube Strategy.";
+            } else if (cmd === 'contact') {
+                out = "WhatsApp: +8801723328481 | Email: Polash@programmer.net";
+            } else if (cmd === 'clear') {
+                log.innerHTML = '';
+                return;
+            } else if (cmd === 'exit') {
+                closeTerminal();
+                return;
+            } else if (cmd === 'matrix') {
+                out = "<span style='color:#10b981'>Wake up, Neo... Follow the white rabbit... 🐇</span>";
+                sfxSuccess();
+            } else if (cmd === 'theme') {
+                cycleTheme();
+                out = "Theme updated.";
+            } else {
+                out = "Command not recognized: '" + cmd + "'. Type 'help' for command directory.";
+            }
+
+            log.innerHTML += out + '<br><br>';
+            log.scrollTop = log.scrollHeight;
+        }
+
+        /* ── THEME & LANGUAGE SYSTEM ── */
+        const THEMES = ['dark', 'light', 'emerald', 'cyber'];
+        let currentThemeIdx = 0;
+
+        window.cycleTheme = function() {
+            currentThemeIdx = (currentThemeIdx + 1) % THEMES.length;
+            const chosen = THEMES[currentThemeIdx];
+            document.documentElement.dataset.theme = chosen;
+            localStorage.setItem('polash_theme', chosen);
+            toast("Theme Switched: " + chosen.toUpperCase());
+            sfxChime();
+        };
+
+        window.toggleLanguage = function() {
+            const btn = document.getElementById('langBtn');
+            const isEn = btn.textContent.trim() === 'EN';
+            btn.textContent = isEn ? 'বাং' : 'EN';
+            toast(isEn ? "ভাষা: বাংলা (Bangla) Active" : "Language: English Active");
+            sfxChime();
+        };
+
+        /* ── COSMIC CANVAS STARFIELD ── */
+        function initStars() {
+            const c = document.getElementById('starCanvas');
+            if (!c) return;
+            const ctx = c.getContext('2d');
+            let w, h, stars = [];
+
+            function resize() {
+                w = c.width = window.innerWidth;
+                h = c.height = window.innerHeight;
+            }
+            resize();
+            window.addEventListener('resize', resize);
+
+            for (let i = 0; i < 90; i++) {
+                stars.push({
+                    x: Math.random() * w,
+                    y: Math.random() * h,
+                    r: Math.random() * 1.5 + 0.5,
+                    vx: (Math.random() - 0.5) * 0.25,
+                    vy: (Math.random() - 0.5) * 0.25,
+                    color: Math.random() > 0.5 ? '#f6c453' : '#00e5ff'
+                });
+            }
+
+            function frame() {
+                ctx.clearRect(0, 0, w, h);
+                stars.forEach(s => {
+                    s.x += s.vx;
+                    s.y += s.vy;
+                    if (s.x < 0) s.x = w;
+                    if (s.x > w) s.x = 0;
+                    if (s.y < 0) s.y = h;
+                    if (s.y > h) s.y = 0;
+                    ctx.beginPath();
+                    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+                    ctx.fillStyle = s.color;
+                    ctx.shadowBlur = 6;
+                    ctx.shadowColor = s.color;
+                    ctx.fill();
+                });
+                requestAnimationFrame(frame);
+            }
+            frame();
+        }
+
+        /* ── SCROLL METER ── */
+        window.addEventListener('scroll', () => {
+            const st = window.pageYOffset || document.documentElement.scrollTop || 0;
+            const max = (document.documentElement.scrollHeight - window.innerHeight) || 1;
+            const pct = Math.min(100, Math.max(0, (st / max) * 100));
+            document.getElementById('scrollMeter').style.width = pct + '%';
+        }, { passive: true });
+
+        /* ── KEYBOARD SHORTCUTS ── */
+        window.addEventListener('keydown', e => {
+            if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                e.preventDefault();
+                openPalette();
+            } else if ((e.metaKey || e.ctrlKey) && e.key === 'j') {
+                e.preventDefault();
+                openGpt();
+            } else if ((e.metaKey || e.ctrlKey) && e.key === '`') {
+                e.preventDefault();
+                openTerminal();
+            } else if (e.key === 'Escape') {
+                closePalette();
+                closeGpt();
+                closeTerminal();
+                closeSidebar();
+            }
+        });
+
+        /* ── INITIALIZATION ── */
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        renderSidebar();
+        
+        const initialHash = (location.hash.slice(1) || 'home').split('?')[0];
+        navigate(initialHash);
+        initStars();
+
+    })();
+    </script>
+</body>
+</html>
